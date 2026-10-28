@@ -5,6 +5,11 @@ starter → polyethylene glycol) after **loss of agitation**. It returns the rel
 relief load, vented mass, pressure and temperature histories, a Leung-omega / API 520 orifice size, and
 alternatives (valve type, rupture disk, effluent and quench destination).
 
+> **Make it yours, free:** download this repo (**Code → Download ZIP**, or `git clone`), open the folder in
+> VS Code or any editor, and extend it for your own case with your AI assistant. This README is written for
+> both of you. Taking these tools further is a free service of
+> [Sharpes Process Engineering](https://jsharpes-portfolio.netlify.app); the site's Ask box can point you to the right starting file.
+
 **The main finding:** a well-mixed bulk hides the hazard. Unreacted EO dissolved in the batch is limited to
 about 1.2 wt % (pressure-limited) and gives only a 4–12 K adiabatic rise, with no relief demand. The danger
 is a **local EO-rich pocket** at the dip-leg outlet. EO keeps feeding into it while the mixer is off, and it

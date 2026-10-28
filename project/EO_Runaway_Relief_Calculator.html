@@ -150,6 +150,78 @@
 <div style="max-width:1180px; margin:0 auto 20px;">
   <h1>EO Runaway Relief Calculator — Loss of Mixing</h1>
   <div class="subtitle">KOH-catalyzed ethoxylation of ethylene glycol to PEG · local EO pocket at the feed point · tempered venting at relieving pressure · API 520 / Leung ω sizing · SI units, pressures bar absolute · <b>preliminary — see basis and limitations below</b></div>
+
+  <script>window.SRC_THUMB_BASE = '../../../../Interview Prep/portfolio-site/assets/source-thumbs/';</script>
+  <!-- Sources panel (portfolio rule 2026-10-27): kept in step with Cheme Tools\PSVs\SOURCES.md; thumbnails = assets/source-thumbs/ from Not on Website/source_thumbs/build_source_thumbs.py -->
+  <div id="eo-srcwrap">
+  <style>
+  #eo-srcwrap{margin:0 0 16px}
+  #eo-srcwrap details.srcs{--sp-bg:#ffffff;--sp-bg2:#f4f4f1;--sp-line:#dddddd;--sp-muted:#666666;--sp-ink:#1a1a18;--sp-acc:#2563EB;display:block;margin:0;padding:0;border:1px solid var(--sp-line);border-radius:8px;background:var(--sp-bg);box-shadow:none;text-align:left}
+  #eo-srcwrap details.srcs>summary{list-style:none;display:flex;align-items:center;gap:8px;cursor:pointer;margin:0;padding:8px 12px;background:none;border:0;border-radius:8px;box-shadow:none;position:static;font-size:11.5px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--sp-muted);user-select:none}
+  #eo-srcwrap details.srcs>summary::-webkit-details-marker{display:none}
+  #eo-srcwrap details.srcs>summary::marker{content:""}
+  #eo-srcwrap details.srcs>summary::before{content:"\25B8";color:var(--sp-acc);width:12px}
+  #eo-srcwrap details.srcs[open]>summary::before{content:"\25BE"}
+  #eo-srcwrap details.srcs>summary:hover{background:none;color:var(--sp-acc)}
+  #eo-srcwrap details.srcs .srcnote{margin:0;padding:0 12px 8px;font-size:12px;line-height:1.45;color:var(--sp-muted);font-style:normal}
+  #eo-srcwrap details.srcs .srcgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:8px;margin:0;padding:0 12px 12px}
+  #eo-srcwrap details.srcs .src{display:grid;grid-template-columns:52px minmax(0,1fr);gap:10px;align-items:start;margin:0;padding:8px;background:var(--sp-bg);border:1px solid var(--sp-line);border-radius:6px;color:var(--sp-ink);text-decoration:none;box-shadow:none;transform:none}
+  #eo-srcwrap details.srcs a.src:hover{border-color:var(--sp-acc)}
+  #eo-srcwrap details.srcs .src img,#eo-srcwrap details.srcs .src .ico{display:block;width:52px;height:68px;margin:0;padding:0;object-fit:cover;object-position:top;border:1px solid var(--sp-line);border-radius:3px;background:var(--sp-bg2)}
+  #eo-srcwrap details.srcs .src img.wide,#eo-srcwrap details.srcs .src .ico.wide{height:30px}
+  #eo-srcwrap details.srcs .src .ico{display:grid;place-items:center;font-size:9px;font-weight:700;letter-spacing:.04em;color:var(--sp-muted)}
+  #eo-srcwrap details.srcs .src b{display:block;margin:0;font-size:13px;line-height:1.25;font-weight:600;color:var(--sp-ink)}
+  #eo-srcwrap details.srcs .src .w{display:block;margin:2px 0 0;font-size:11.5px;line-height:1.35;color:var(--sp-muted)}
+  #eo-srcwrap details.srcs .src .k{display:block;margin:0 0 2px;font-style:normal;font-size:10px;letter-spacing:.05em;text-transform:uppercase;color:var(--sp-acc)}
+  #eo-srcwrap details.srcs .src .k.off{color:var(--sp-muted)}
+  @media (max-width:560px){#eo-srcwrap details.srcs .srcgrid{grid-template-columns:minmax(0,1fr)}}
+  </style>
+  <details class="srcs">
+    <summary>Sources behind this tool <span id="eo-srccount"></span></summary>
+    <p class="srcnote">Decks and tools open on this site in a new tab. Books, papers and methods are cited, not linked. Detail by topic: SOURCES.md in the Method &amp; code repo.</p>
+    <div class="srcgrid" id="eo-srcgrid"></div>
+  </details>
+  <script>
+  (function () {
+    var TH = window.SRC_THUMB_BASE || 'assets/source-thumbs/';
+    var SOURCES = [
+      ["deck-runaway", "deck", "Runaway Reaction Venting Requirements", "Presentation basis: tempered / gassy / hybrid classification and the venting method per class", null],
+      ["diserio", "paper", "Di Serio et al., Ind. Eng. Chem. Res. 35 (1996) 3848", "k11 kinetics, EO Antoine and density, UNIFAC solubility (S96)", null],
+      ["zahnd", "paper", "Zahnd et al., Org. Process Res. Dev. 30 (2026) 628", "Heat of reaction 88–92 kJ/mol, EO liquid c<sub>p</sub>, ×1.5 semibatch kinetic correction (Z26)", null],
+      ["loetgering", "paper", "Loetgering-Lin et al. (BASF), Chem. Eng. Trans. 98 (2023)", "Heats of reaction and decomposition; adiabatic runaway framing; decomposition near 200 °C (L23)", null],
+      ["gakhar", "paper", "Gakhar &amp; Carr, IChemE Symp. Ser. 149", "Real 22 m³ alkoxylation runaway: accumulation, interlocks, quench tank (G03)", null],
+      ["dinh", "paper", "Dinh, TAMU M.S. thesis (2008)", "EO polymerization, decomposition and isomerization heats; APTAC onset ~205 °C (D08)", null],
+      ["crocco", "paper", "Crocco et al., J. Chem. Phys. (1959)", "Gas-phase EO decomposition kinetics, used with caution (C59)", null],
+      ["chiu", "paper", "Chiu, Swinburne thesis", "Plant basis: 6–10 m³, 3.62 / 4.45 bar, 16–28 kg/min feed, dip-leg sizes, 80 % fill (CH)", null],
+      ["perry9", "book", "Perry's 9th ed., Sec. 2", "EO and EG density and heat of vaporization (DIPPR-105/106); polyether c<sub>p</sub> (Ruzicka-Domalski)", null],
+      ["gpreh", "book", "CCPS, Guidelines for Pressure Relief and Effluent Handling Systems", "System classification, vessel dynamics and disengagement, Leung omega method", null],
+      [null, "book", "DIERS Project Manual", "Classification by test result, valid sizing method per class, disengagement", null],
+      ["api520", "book", "API 520 Part I", "Relief device sizing basis", null],
+      ["api521", "book", "API STD 521, 7th ed. (2020)", "Overpressure scenarios and protection philosophy", null],
+      [null, "method", "UNIFAC via thermo", "EO activity coefficient vs. chain length (generated grid)", null]
+    ];
+    var grid = document.getElementById('eo-srcgrid');
+    if (!grid) return;
+    document.getElementById('eo-srccount').textContent = '\u00b7 ' + SOURCES.length;
+    grid.innerHTML = SOURCES.map(function (s) {
+      var kind = s[1], wide = kind === 'deck' ? ' wide' : '';
+      var linkable = kind === 'deck' || kind === 'tool', url = linkable ? s[4] : null, off = linkable && !url;
+      var img = s[0] ? '<img src="' + TH + s[0] + '.jpg" alt="" loading="lazy" class="' + wide.trim() + '" data-kind="' + kind + '">'
+                     : '<span class="ico' + wide + '">' + kind.toUpperCase() + '</span>';
+      var inner = img + '<div><i class="k' + (off ? ' off' : '') + '">' + kind + (off ? ' \u00b7 not on the site yet' : '') + '</i><b>' +
+                  s[2] + (url ? ' \u2197' : '') + '</b><span class="w">' + s[3] + '</span></div>';
+      return url ? '<a class="src" href="' + url + '" target="_blank" rel="noopener">' + inner + '</a>' : '<div class="src">' + inner + '</div>';
+    }).join('');
+    Array.prototype.forEach.call(grid.querySelectorAll('img'), function (im) {
+      im.addEventListener('error', function () {
+        var sp = document.createElement('span'), k = im.getAttribute('data-kind');
+        sp.className = 'ico' + (k === 'deck' ? ' wide' : ''); sp.textContent = k.toUpperCase();
+        im.parentNode.replaceChild(sp, im);
+      });
+    });
+  })();
+  </script>
+  </div>
 </div>
 
 <div class="layout">
