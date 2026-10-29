@@ -471,7 +471,8 @@
   #eo-tool .eo-panel + .eo-panel { margin-top: 12px; }
 
   @media (max-width: 900px) {
-  #eo-tool .eo-layout { grid-template-columns: 1fr; }
+  #eo-tool .eo-layout { grid-template-columns: minmax(0,1fr); }
+  #eo-tool select { max-width: 100%; min-width: 0; }   /* long failure-mode names widened the page on phones */
   #eo-tool .eo-metric-grid { grid-template-columns: 1fr 1fr; }
   #eo-tool { padding: 1rem; }
   }
